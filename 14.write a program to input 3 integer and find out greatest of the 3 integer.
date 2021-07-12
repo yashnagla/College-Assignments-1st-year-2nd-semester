@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("/n Enter three integers A,B & C");
+scanf("%d%d%d",&A,&B,&C);
+if(A>=B && A>=C)
+{
+printf("%d is the largest integer",&A);
+}
+if(B>=A && B>=C)
+{
+printf("% is the largest integer",&B);
+}
+if(C>=A && C>=B)
+{
+printf("%d is the largest integer",&C);
+}
+return 0;
+}
