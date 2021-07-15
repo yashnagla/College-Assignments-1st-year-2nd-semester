@@ -1,14 +1,11 @@
 //Write a program to input an integer and print week days accordingly by using switch.
-#include <stdio.h>
 
+#include <stdio.h>
 int main()
 {
-    int week;
-    
-    /* Input week number from user */
+    int week; 
     printf("Enter week number(1-7): ");
     scanf("%d", &week);
-    
     switch(week)
     {
         case 1: 
