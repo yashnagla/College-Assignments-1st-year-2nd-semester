@@ -1,0 +1,21 @@
+//Write a c program to input an integer & print a table of that integer in the given form n*1=n till n*10=n using a loop.
+#include <stdio.h>
+int main()
+{
+   int j,i,n;
+   printf("Input upto the table number starting from 1 : ");
+   scanf("%d",&n);
+   printf("Multiplication table from 1 to %d \n",n);
+   for(i=1;i<=10;i++)
+   {
+     for(j=1;j<=n;j++)
+     {
+       if (j<=n-1)
+           printf("%dx%d = %d, ",j,i,i*j);
+          else
+	    printf("%dx%d = %d",j,i,i*j);
+
+      }
+     printf("\n");
+    }
+}
